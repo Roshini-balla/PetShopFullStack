@@ -1,0 +1,20 @@
+<!-- src/app/components/update-address/update-address.component.html -->
+
+<div>
+  <h2>Update Address</h2>
+  <form (ngSubmit)="updateAddress()">
+    <label>Street:</label>
+    <input type="text" [(ngModel)]="address.street" name="street" required>
+    <br>
+    <label>City:</label>
+    <input type="text" [(ngModel)]="address.city" name="city" required>
+    <br>
+    <label>State:</label>
+    <input type="text" [(ngModel)]="address.state" name="state" required>
+    <br>
+    <label>Zip Code:</label>
+    <input type="text" [(ngModel)]="address.zipCode" name="zipCode" required>
+    <br>
+    <button type="submit">Update Address</button>
+  </form>
+</div>

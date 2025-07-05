@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <h2 class="text-center">Add Pet Food</h2>
+        <form (ngSubmit)="onSubmit()">
+          <div class="form-group">
+            <label>Name:</label>
+            <input type="text" class="form-control" [(ngModel)]="petFood.name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label>Brand:</label>
+            <input type="text" class="form-control" [(ngModel)]="petFood.brand" name="brand">
+          </div>
+          <div class="form-group">
+            <label>Type:</label>
+            <input type="text" class="form-control" [(ngModel)]="petFood.type" name="type">
+          </div>
+          <div class="form-group">
+            <label>Quantity:</label>
+            <input type="number" class="form-control" [(ngModel)]="petFood.quantity" name="quantity">
+          </div>
+          <div class="form-group">
+            <label>Price:</label>
+            <input type="number" class="form-control" [(ngModel)]="petFood.price" name="price">
+          </div>
+          <button type="submit" class="btn btn-success">AddFood</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  

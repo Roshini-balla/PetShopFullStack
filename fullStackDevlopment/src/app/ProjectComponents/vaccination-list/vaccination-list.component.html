@@ -1,0 +1,31 @@
+<div class="container mt-5">
+  <div class="d-flex justify-content-between align-items-center mb-3">
+    <h2>Vaccination List</h2>
+    <a routerLink="/add-vaccination" class="btn btn-primary btn-lg add-vaccination-button">Add Vaccination</a>
+  </div>
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Vaccination ID</th>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Price</th>
+      <th>Available</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let vaccination of vaccinations">
+      <td>{{ vaccination.vaccinationId }}</td>
+      <td>{{ vaccination.name }}</td>
+      <td>{{ vaccination.description }}</td>
+      <td>{{ vaccination.price }}</td>
+      <td>{{ vaccination.available }}</td>
+      <td>
+        <button (click)="updateVaccination(vaccination.vaccinationId)" class="btn btn-warning" style="margin-left: 10px">Update</button>
+        <button (click)="deleteVaccination(vaccination.vaccinationId)"class="btn btn-danger" style="margin-left: 10px">Delete</button>
+        
+      </td>
+    </tr>
+  </tbody>
+</table>

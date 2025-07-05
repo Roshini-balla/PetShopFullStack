@@ -1,0 +1,31 @@
+<div class="container mt-5">
+  <div class="d-flex justify-content-between align-items-center mb-3">
+    <h2>PET List</h2>
+    <a routerLink="/add-pet" class="btn btn-primary btn-lg">Add pet</a>
+  </div>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Breed</th>
+        <th>Age</th>
+        <th>Price</th>
+        <th>Description</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let pet of pets">
+        <td>{{ pet.name }}</td>
+        <td>{{ pet.breed }}</td>
+        <td>{{ pet.age }}</td>
+        <td>{{ pet.price }}</td>
+        <td>{{ pet.description }}</td>
+        <td>
+          <button class="btn btn-warning" (click)="updatePet(pet.petId)"style="margin-left: 10px">Update</button>
+          <button class="btn btn-danger" (click)="deletePet(pet.petId)"style="margin-left: 10px">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

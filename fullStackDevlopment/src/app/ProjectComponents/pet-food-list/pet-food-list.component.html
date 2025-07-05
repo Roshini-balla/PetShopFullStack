@@ -1,0 +1,32 @@
+<div class="container mt-5">
+  <div class="d-flex justify-content-between align-items-center mb-3">
+    <h2>PET-FOOD</h2>
+    <a routerLink="/add-pet-food" class="btn btn-primary btn-lg add-vaccination-button">Add Pet-Food</a>
+  </div>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Brand</th>
+          <th>Type</th>
+          <th>Quantity</th>
+          <th>Price</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let petFood of petFoods">
+          <td>{{ petFood.name }}</td>
+          <td>{{ petFood.brand }}</td>
+          <td>{{ petFood.type }}</td>
+          <td>{{ petFood.quantity }}</td>
+          <td>{{ petFood.price }}</td>
+          <td>
+            <button class="btn btn-warning" (click)="updatePetFood(petFood.foodId)"style="margin-left: 10px">Update</button>
+            <button class="btn btn-danger" (click)="deletePetFood(petFood.foodId)"style="margin-left: 10px">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

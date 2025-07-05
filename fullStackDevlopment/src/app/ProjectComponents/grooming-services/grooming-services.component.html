@@ -1,0 +1,30 @@
+<div class="container mt-5">
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2>Grooming-Services</h2>
+        <a routerLink="/add-grooming-service" class="btn btn-primary btn-lg add-vaccination-button">Add Services</a>
+</div>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Description</th>
+          <th>Price</th>
+          <th>Available</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let service of groomingServices">
+          <td>{{ service.name }}</td>
+          <td>{{ service.description }}</td>
+          <td>{{ service.price }}</td>
+          <td>{{ service.available }}</td>
+          <td>
+            <button [routerLink]="['/update-grooming-service', service.serviceId]" class="btn btn-warning"style="margin-left: 10px">Update</button>
+            <button (click)="deleteGroomingService(service.serviceId)" class="btn btn-danger"style="margin-left: 10px">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

@@ -1,0 +1,26 @@
+<div>
+  <h2>Update Pet</h2>
+  <form (ngSubmit)="onSubmit()">
+    <div>
+      <label>Name</label>
+      <input [(ngModel)]="pet.name" name="name" required>
+    </div>
+    <div>
+      <label>Breed</label>
+      <input [(ngModel)]="pet.breed" name="breed" required>
+    </div>
+    <div>
+      <label>Age</label>
+      <input [(ngModel)]="pet.age" name="age" required>
+    </div>
+    <div>
+      <label>Price</label>
+      <input [(ngModel)]="pet.price" name="price" required>
+    </div>
+    <div>
+      <label>Description</label>
+      <input [(ngModel)]="pet.description" name="description" required>
+    </div>
+    <button type="submit">Update</button>
+  </form>
+</div>
