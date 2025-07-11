@@ -24,6 +24,31 @@ A full-stack web application to streamline pet shop operations — including pet
 
 ---
 
+## 📸 Screenshots
+
+### 🏠 Home / Dashboard View
+![Dashboard](./screenshots/Homepage.png)
+
+### 🐶 Pet Registration
+![Pet Registration](./screenshots/petlist.png)
+
+### 👤 Customer Management
+![Customer Management](./screenshots/customers.png)
+
+### Vaccinations / Vaccines
+![Vaccinations](./screenshots/Vaccinations.png)
+
+### 🐶 Petlist Registration
+![Pet Registration](./screenshots/petlist.png)
+
+### Transaction 
+![Customer Management](./screenshots/transactions.png)
+
+### 🐶 GroommingServices
+![GroomingServices](./screenshots/GroomingServices.png)
+---
+
+
 ## 🛠️ Setup Instructions
 
 ### 1. Clone the repository
