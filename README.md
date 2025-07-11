@@ -23,31 +23,30 @@ A full-stack web application to streamline pet shop operations — including pet
 - 📊 Centralized dashboard for operational insights
 
 ---
-
 ## 📸 Screenshots
 
-### 🏠 Home / Dashboard View
-![Dashboard](./screenshots/Homepage.png)
+### 🏠 Homepage / Dashboard
+![Homepage](./screenshots/Homepage.png)
 
-### 🐶 Pet Registration
-![Pet Registration](./screenshots/petlist.png)
+### 🐶 Pets List
+![Pets List](./screenshots/petslist.png)
 
-### 👤 Customer Management
-![Customer Management](./screenshots/customers.png)
+### 🍖 Pet Food List
+![Pet Food List](./screenshots/petfoodlist.png)
 
-### Vaccinations / Vaccines
-![Vaccinations](./screenshots/Vaccinations.png)
+### 💈 Grooming Services
+![Grooming Services](./screenshots/groomingServices.png)
 
-### 🐶 Petlist Registration
-![Pet Registration](./screenshots/petlist.png)
+### 💉 Vaccinations
+![Vaccinations](./screenshots/vaccinations.png)
 
-### Transaction 
-![Customer Management](./screenshots/transactions.png)
+### 👤 Customers List
+![Customers List](./screenshots/customers.png)
 
-### 🐶 GroommingServices
-![GroomingServices](./screenshots/GroomingServices.png)
+### 💰 Transactions
+![Transactions](./screenshots/transactions.png)
+
 ---
-
 
 ## 🛠️ Setup Instructions
 
