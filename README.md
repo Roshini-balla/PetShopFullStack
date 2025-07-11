@@ -46,11 +46,40 @@ A full-stack web application to streamline pet shop operations — including pet
 ### 💰 Transactions
 ![Transactions](./screenshots/transactions.png)
 
----
 
+---
 ## 🛠️ Setup Instructions
 
-### 1. Clone the repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/Roshini-balla/PetShopFullStack.git
+```
+
+### 2. Backend Setup
+
+- Import the backend folder into **Spring Tool Suite** or **Eclipse**
+- Run the application using the embedded **Tomcat** server
+- Ensure **MySQL** is running and update `application.properties` with your DB credentials
+
+### 3. Frontend Setup
+
+```bash
+cd frontend
+npm install
+ng serve
+```
+
+---
+## 🎯 Purpose of the Project
+
+This project was created to simulate real-world pet shop management operations and sharpen my skills in full-stack development. It demonstrates my ability to build end-to-end applications using Java (Spring Boot), Angular, and MySQL.
+
+
+---
+## 📩 Connect With Me
+
+- **LinkedIn:** [Roshini Balla](https://www.linkedin.com/in/roshini-balla-7b831920a)
+- **Email:** [roshinimighty98@example.com](mailto:roshinimighty98@example.com)
+
+
