@@ -80,6 +80,6 @@ This project was created to simulate real-world pet shop management operations a
 ## 📩 Connect With Me
 
 - **LinkedIn:** [Roshini Balla](https://www.linkedin.com/in/roshini-balla-7b831920a)
-- **Email:** [roshinimighty98@example.com](mailto:roshinimighty98@example.com)
+- **Email:** [roshinimighty98@example.com](mailto:roshinimighty98@gmail.com)
 
 
